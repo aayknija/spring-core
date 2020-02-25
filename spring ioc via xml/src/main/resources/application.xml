@@ -2,10 +2,9 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
-
     <bean id="myCoach" class="service.BaseballCoach"/>
     <bean id="track" class="service.BaseballCoach"/>
-<sujit>
-
-</sujit>
+    <bean id="player1" class="dto.Player">
+        <property  name="name" value="Ajinkya"/>
+    </bean>
 </beans>
