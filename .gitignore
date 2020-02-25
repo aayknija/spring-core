@@ -1,0 +1,10 @@
+/.idea/
+/.idea/libraries/
+/.idea/$PRODUCT_WORKSPACE_FILE$
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/spring-core.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
