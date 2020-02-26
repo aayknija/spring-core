@@ -5,12 +5,15 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 
+   <!-- Including property file-->
     <context:property-placeholder location="classpath:employee.properties"/>
    <bean id="employeeService" class="com.service.EmployeeServiceImpl">
        <constructor-arg ref="employeeDao"/>
    </bean>
 
     <bean id="employeeDao" class="com.dao.EmployeeDaoImpl"/>
+
+    <!--Setter injection-->
 
     <bean id="employee1" class="com.dto.Employee">
         <property name="id" value="E001"/>
@@ -19,6 +22,8 @@
         <property name="designation" value="Manger"/>
         <property name="department" value="IT"/>
     </bean>
+
+    <!-- Constructor  injection-->
     <bean id="employee2" class="com.dto.Employee">
         <constructor-arg name="id" value="E002"/>
         <constructor-arg name="name" value="Sanket"/>
@@ -27,6 +32,8 @@
         <constructor-arg name="department" value="Operations"/>
     </bean>
 
+
+    <!--Injecting values from property file-->
     <bean id="employee3" class="com.dto.Employee">
         <property name="id" value="${employee3.id}"/>
         <property name="name" value="${employee3.name}"/>
