@@ -2,11 +2,9 @@ package com.service;
 
 import com.dao.EmployeeDao;
 import com.dto.Employee;
-import org.springframework.beans.factory.annotation.Autowired;
 
 public class EmployeeServiceImpl implements EmployeeService {
 
-    @Autowired
     private EmployeeDao employeeDao;
 
     public EmployeeServiceImpl(EmployeeDao employeeDao) {
