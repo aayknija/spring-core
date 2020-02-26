@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring crud via xml/spring crud via xml.iml" filepath="$PROJECT_DIR$/spring crud via xml/spring crud via xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring ioc via xml/spring ioc via xml.iml" filepath="$PROJECT_DIR$/spring ioc via xml/spring ioc via xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-core.iml" filepath="$PROJECT_DIR$/.idea/spring-core.iml" />
     </modules>
