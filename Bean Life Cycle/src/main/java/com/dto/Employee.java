@@ -21,4 +21,12 @@ public class Employee {
     private String designation;
     private String department;
 
+    public void init(){
+        System.out.println("Employee object initializing : "+this);
+    }
+
+    public void destroy(){
+        System.out.println("In Employee destroy : "+this);
+    }
+
 }

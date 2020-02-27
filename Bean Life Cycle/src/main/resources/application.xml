@@ -14,7 +14,7 @@
 
     <!--Setter injection-->
 
-    <bean id="employee1" class="com.dto.Employee">
+    <bean id="employee1" class="com.dto.Employee" init-method="init" destroy-method="destroy">
         <property name="id" value="E001"/>
         <property name="name" value="Ajinkya"/>
         <property name="employeeCode" value="EC001"/>
