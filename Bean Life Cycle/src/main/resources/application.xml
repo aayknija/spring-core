@@ -41,4 +41,7 @@
         <property name="department" value="${employee3.department}"/>
     </bean>
 
+
+    <bean id="customProcessor" class="com.config.MyCustomBeanProcessor"/>
+
 </beans>

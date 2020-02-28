@@ -1,9 +1,10 @@
 package com.dto;
 
 import lombok.Data;
+import org.springframework.beans.factory.DisposableBean;
 
 @Data
-public class Employee {
+public class Employee implements DisposableBean {
 
     public Employee(){
     }
@@ -25,6 +26,7 @@ public class Employee {
         System.out.println("Employee object initializing : "+this);
     }
 
+    @Override
     public void destroy(){
         System.out.println("In Employee destroy : "+this);
     }
