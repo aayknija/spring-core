@@ -23,7 +23,7 @@
     </bean>
 
     <!-- Constructor  injection-->
-    <bean id="employee2" class="com.dto.Employee">
+    <bean id="employee2" class="com.dto.Employee" scope="prototype" init-method="init" destroy-method="destroy">
         <constructor-arg name="id" value="E002"/>
         <constructor-arg name="name" value="Sanket"/>
         <constructor-arg name="employeeCode" value="EC002"/>
@@ -33,7 +33,7 @@
 
 
     <!--Injecting values from property file-->
-    <bean id="employee3" class="com.dto.Employee">
+    <bean id="employee3" class="com.dto.Employee"  init-method="init" destroy-method="destroy">
         <property name="id" value="${employee3.id}"/>
         <property name="name" value="${employee3.name}"/>
         <property name="employeeCode" value="${employee3.employeeCode}"/>
