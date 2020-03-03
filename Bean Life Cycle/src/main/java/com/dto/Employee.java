@@ -1,7 +1,10 @@
 package com.dto;
 
 import lombok.Data;
+import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 
 @Data
 public class Employee implements DisposableBean {

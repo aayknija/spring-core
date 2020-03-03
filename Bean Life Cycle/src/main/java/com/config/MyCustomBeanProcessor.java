@@ -16,6 +16,7 @@ public class MyCustomBeanProcessor implements BeanPostProcessor, BeanFactoryAwar
 	private final List<Object> prototypeBeans = new LinkedList<Object>();
 
 	public Object postProcessBeforeInitialization(Object o, String s) throws BeansException {
+		System.out.println("Employee object postProcessBeforeInitialization : "+o);
 		return o;
 	}
 
@@ -28,7 +29,7 @@ public class MyCustomBeanProcessor implements BeanPostProcessor, BeanFactoryAwar
 				prototypeBeans.add(bean);
 			}
 		}
-
+		System.out.println("Employee object postProcessAfterInitialization : "+bean);
 		return bean;
 	}
 
