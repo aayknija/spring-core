@@ -15,9 +15,6 @@ public class BeanLifeCycleApplication {
         Employee employee2 = applicationContext.getBean("employee2", Employee.class);
         System.out.println("Employee 2 :"+employee2);
 
-        employee2= null;
-        System.gc();
-
         System.out.println("Closing application context");
         applicationContext.close();
         System.out.println("Application context closed successfully !");
