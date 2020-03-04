@@ -9,11 +9,13 @@
         <module name="Bean Life Cycle" />
         <module name="spring ioc via xml" />
         <module name="spring crud via xml" />
+        <module name="spring ioc via annotations" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Bean Life Cycle" target="6" />
       <module name="spring crud via xml" target="1.5" />
+      <module name="spring ioc via annotations" target="6" />
       <module name="spring ioc via xml" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -7,7 +7,7 @@
 
    <!-- Including property file-->
     <context:property-placeholder location="classpath:employee.properties"/>
-   <bean id="employeeService" class="com.service.EmployeeServiceImpl">
+   <bean id="employeeService" class="com.service.DefaultEmployeeServiceImpl">
        <constructor-arg ref="employeeDao"/>
    </bean>
 
