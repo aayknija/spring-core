@@ -15,7 +15,7 @@
     <bytecodeTargetLevel>
       <module name="Bean Life Cycle" target="6" />
       <module name="spring crud via xml" target="1.5" />
-      <module name="spring ioc via annotations" target="6" />
+      <module name="spring ioc via annotations" target="1.8" />
       <module name="spring ioc via xml" target="1.5" />
     </bytecodeTargetLevel>
   </component>
