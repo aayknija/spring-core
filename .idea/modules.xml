@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bean Life Cycle/Bean Life Cycle.iml" filepath="$PROJECT_DIR$/Bean Life Cycle/Bean Life Cycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structure-and-algorithm/data-structure-and-algorithm.iml" filepath="$PROJECT_DIR$/data-structure-and-algorithm/data-structure-and-algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring crud via xml/spring crud via xml.iml" filepath="$PROJECT_DIR$/spring crud via xml/spring crud via xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring ioc via annotations/spring ioc via annotations.iml" filepath="$PROJECT_DIR$/spring ioc via annotations/spring ioc via annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring ioc via xml/spring ioc via xml.iml" filepath="$PROJECT_DIR$/spring ioc via xml/spring ioc via xml.iml" />
